@@ -270,7 +270,8 @@ body {
   body {
     padding: 1.5rem 1rem;
     align-items: flex-start;
-    padding-bottom: 10rem;
+    flex-direction: column;
+    padding-bottom: 4rem;
   }
 
   .header {
@@ -286,6 +287,11 @@ body {
     gap: 1rem;
   }
 
+  .epita-logo {
+    position: static;
+    margin-bottom: 1.5rem;
+  }
+
   .epita-logo img {
     height: 36px;
   }
@@ -296,16 +302,7 @@ body {
   }
 
   .qr-wrapper {
-    bottom: 1rem;
-    right: 1rem;
-    padding: 0.65rem;
-  }
-
-  #qrcode,
-  #qrcode img,
-  #qrcode canvas {
-    width: 72px !important;
-    height: 72px !important;
+    display: none;
   }
 }
 
